@@ -1,8 +1,14 @@
 import google.generativeai as genai
 import json
 import uuid
+from dotenv import load_dotenv
+import os
 
-genai.configure(api_key="AIzaSyAZZM763D6k9_9nCvhaCtq4rENViHqq5Ds")
+# Load variables from .env file into the environment
+load_dotenv()
+
+
+genai.configure(api_key=os.getenv("gemini_key"))
 def build_conversation_context(chat_history):
     """
     Takes a list of chat entries (each with user_input and response.response_to_user)
