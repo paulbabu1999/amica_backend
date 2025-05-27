@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from gemini_utils import get_gemini_response
-from voice_utils import transcribe_audio
 from dotenv import load_dotenv
 import os
 
@@ -47,26 +46,7 @@ def post_chat():
     
     return jsonify(response)
 
-@app.route("/api/audio", methods=["POST"])
-def post_audio():
-    if "file" not in request.files:
-        return jsonify({"error": "No audio file uploaded"}), 400
-    user_id = request.json.get("user_id")
 
-    file = request.files["file"]
-    filename = f"temp_{uuid.uuid4().hex}.wav"
-    file.save(filename)
-
-    try:
-        text = transcribe_audio(filename)
-        save_chat(entry)
-
-        response = get_gemini_response(text)
-
-        
-        return 
-    finally:
-        os.remove(filename)
 
 if __name__ == "__main__":
     app.run(debug=True, port=os.getenv("PORT", 5050))
