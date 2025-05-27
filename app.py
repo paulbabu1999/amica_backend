@@ -2,7 +2,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from gemini_utils import get_gemini_response
 from voice_utils import transcribe_audio
+from dotenv import load_dotenv
 import os
+
+# Load variables from .env file into the environment
+load_dotenv()
 import json
 
 app = Flask(__name__)
@@ -65,4 +69,4 @@ def post_audio():
         os.remove(filename)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5050)
+    app.run(debug=True, port=os.getenv("PORT", 5050))
