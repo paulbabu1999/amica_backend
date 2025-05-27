@@ -1,0 +1,469 @@
+[
+  {
+    "id": "7c1529cf-6154-4fe0-95b3-31bfa5fe066f",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "Hi there! It sounds like you might need to talk.  How are you doing today? Is there anything you'd like to share?",
+      "emotion": "Neutral.  The greeting is noncommittal and provides no clear emotional indicators.",
+      "suicidal_cues": "No.  \"Hi\" is an extremely brief and non-specific greeting, offering no indication of suicidal thoughts or ideation.",
+      "summary": "The user's main concern is currently unknown; they have offered only a greeting.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "9202f82c-a319-4916-81c3-58e9fa1cc434",
+    "user_id": "11",
+    "user_input": "hello",
+    "response": {
+      "response_to_user": "Hello!  It sounds like you might need some support.  Is there anything you'd like to talk about today?  I'm here to listen without judgment.",
+      "emotion": "Neutral",
+      "suicidal_cues": "No. The greeting \"hello\" provides no indication of suicidal ideation or self-harm.",
+      "summary": "The user's main concern is currently unknown; the message only initiates contact.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "edf8f80e-6dbc-4b77-95a9-0d87df9454d0",
+    "user_id": "11",
+    "user_input": "",
+    "response": {
+      "response_to_user": "I understand you haven't shared anything yet.  To best support you, please tell me what's on your mind.  Even if it feels small or insignificant, sharing it can help me understand how I can assist you.  Remember, I'm here to listen without judgment.",
+      "emotion": "Neutral/Unknown",
+      "suicidal_cues": "No.  There is no information provided to assess for suicidal ideation.",
+      "summary": "The user has not yet expressed any concerns.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "e26317a4-eb7f-40cc-9442-e996f3d45d72",
+    "user_id": "11",
+    "user_input": "tr",
+    "response": {
+      "response_to_user": "I understand you've sent 'tr'.  This is very brief, and I need more information to understand what's happening. Can you tell me more about what's on your mind?  Even a few more words will help me understand your needs better.  Please know that you're not alone and I'm here to listen without judgment.  Is there anything specific you'd like to talk about?",
+      "emotion": "Ambiguous/Unclear",
+      "suicidal_cues": "No.  The abbreviation \"tr\" is insufficient to determine suicidal ideation.  More information is needed.",
+      "summary": "The user's main concern is unclear due to insufficient information provided.",
+      "urgency": "Moderate. While there are no immediate red flags, the brevity warrants a follow-up to assess potential underlying issues.  A response within 24 hours is appropriate to encourage further communication and assess the situation."
+    }
+  },
+  {
+    "id": "7a22ba77-444e-4d81-964f-f3422446188b",
+    "user_id": "11",
+    "user_input": "what to do",
+    "response": {
+      "response_to_user": "I understand you're reaching out and saying 'what to do.'  That's a very broad statement, and to help you best, I need more information. Can you tell me more about what's happening and what you're feeling?  What specific situation or problem are you facing?",
+      "emotion": "Anxious/Overwhelmed.  The vagueness suggests a lack of clarity and potentially a feeling of being overwhelmed by a situation.",
+      "suicidal_cues": "No. There is no explicit or implicit mention of self-harm or death. However, the extreme brevity of the message could indicate a potential underlying issue requiring further exploration.",
+      "summary": "The user is experiencing an unspecified problem and is seeking guidance on how to proceed.",
+      "urgency": "Moderate. While there are no immediate danger signs, the lack of context warrants a prompt response to assess the situation and determine the appropriate level of support needed."
+    }
+  },
+  {
+    "id": "78ba9ffb-c761-49ba-8284-37b72e3138f8",
+    "user_id": "11",
+    "user_input": "para",
+    "response": {
+      "response_to_user": "Para\" is too brief to understand your needs.  Could you please tell me more about what's happening?  I'm here to listen without judgment.  It's important for me to understand your concerns so I can help you effectively.  Please share more details.",
+      "emotion": "Neutral/Ambiguous",
+      "suicidal_cues": "No.  The word \"para\" lacks context and doesn't contain any language or clues indicative of suicidal ideation.  However, the brevity is concerning and warrants further investigation.",
+      "summary": "The user's main concern is unclear due to insufficient information.",
+      "urgency": "Moderate"
+    }
+  },
+  {
+    "id": "e724e19c-b910-4b72-be1f-2bd0f76992c0",
+    "user_id": "11",
+    "user_input": "hi how are you",
+    "response": {
+      "response_to_user": "Hi there! I'm doing well, thank you for asking.  How are you doing today?",
+      "emotion": "Neutral/Polite. The greeting is standard and doesn't reveal any specific emotion.",
+      "suicidal_cues": "No.  The message is a simple greeting and lacks any indicators of distress, self-harm, or suicidal thoughts.",
+      "summary": "The user is initiating a conversation with a polite greeting.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "955cab50-4eea-4d10-a75f-b04c950ee49b",
+    "user_id": "11",
+    "user_input": "i am not feeling well",
+    "response": {
+      "response_to_user": "I'm sorry to hear you're not feeling well.  Can you tell me a little more about what's happening?  Knowing more about what's troubling you will help me understand how best to support you.",
+      "emotion": "Vague distress.  More information is needed to determine the specific emotion.",
+      "suicidal_cues": "No.  The statement is too general to indicate suicidal ideation. However,  it warrants further exploration to rule out any such possibility.",
+      "summary": "The user is experiencing unspecified discomfort or distress.",
+      "urgency": "Moderate.  While not immediately life-threatening, the lack of specificity requires follow-up to assess the potential severity of the situation and ensure the user's safety."
+    }
+  },
+  {
+    "id": "23c55820-f9c0-4348-aa12-0770e9733dd2",
+    "user_id": "111",
+    "user_input": "hi I feel old",
+    "response": {
+      "response_to_user": "Hi there.  \"Feeling old\" can encompass a wide range of feelings. Can you tell me more about what's making you feel this way?  Are there specific situations or thoughts contributing to this feeling?  It's important to understand the context to best support you.",
+      "emotion": "Sadness, possibly with underlying anxiety or depression.  The statement is vague, so further clarification is needed to accurately assess the emotional tone.",
+      "suicidal_cues": "No.  While feeling old can sometimes be linked to feelings of worthlessness or hopelessness in some individuals, there is no direct expression of suicidal ideation in this message.  However, it's crucial to explore this further as it's a potential underlying concern.",
+      "summary": "The user is expressing feelings of being old, and the underlying cause and intensity of this feeling require further exploration.",
+      "urgency": "Moderate.  While not immediately a crisis, exploring the reasons behind feeling old is important to rule out potential underlying mental health concerns.  A response within 24 hours is appropriate to initiate further conversation and assessment."
+    }
+  },
+  {
+    "id": "0ef062bf-b896-495f-abed-3e3800fecd34",
+    "user_id": "11",
+    "user_input": "hey",
+    "response": {
+      "response_to_user": "Hi there! It seems like you might need someone to talk to.  Is everything okay?  Please feel free to share whatever's on your mind, or just let me know if you'd prefer to chat later.",
+      "emotion": "Neutral/Indeterminate. The single word \"hey\" provides little emotional information.  It could be friendly, dismissive, or masking underlying distress.",
+      "suicidal_cues": "No.  There is no indication of suicidal ideation or self-harm in this single word.",
+      "summary": "The user's main concern is unknown; the message is too brief to determine.",
+      "urgency": "Moderate. While there are no immediate red flags, a follow-up is warranted to assess the user's well-being.  A brief, friendly response encourages further communication and allows for a better assessment."
+    }
+  },
+  {
+    "id": "8fa91949-c94b-4551-9e20-0506b1ab2fc2",
+    "user_id": "11",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "Hi there!  It sounds like you might need to talk. How are you doing today? Is there anything you'd like to share?",
+      "emotion": "Neutral.  The greeting \"hi\" is non-specific and doesn't reveal emotional tone.  It could be masking a range of emotions, from happiness to distress.",
+      "suicidal_cues": "No. There is no indication of suicidal ideation or self-harm in this single word greeting.",
+      "summary": "The user's main concern is currently unknown; the message provides no information beyond a simple greeting.",
+      "urgency": "Low (routine).  A simple greeting warrants a friendly response but doesn't suggest an immediate crisis.  Further interaction is needed to assess the user's actual needs."
+    }
+  },
+  {
+    "id": "8fd62e08-ad65-467a-99e5-81b5b14a0a0c",
+    "user_id": "11",
+    "user_input": "yo",
+    "response": {
+      "response_to_user": "Hey there! 'Yo' is a pretty casual greeting.  Is there anything specific you'd like to talk about today?  I'm here to listen without judgment.",
+      "emotion": "Neutral/Indeterminate.  The greeting \"yo\" provides no information about emotional state.",
+      "suicidal_cues": "No.  The greeting is too brief to indicate any suicidal ideation.",
+      "summary": "The user's main concern is currently unknown; the message provides no information beyond a greeting.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "e9d40103-bd2a-4966-90c3-0d6783777317",
+    "user_id": "11",
+    "user_input": "yo",
+    "response": {
+      "response_to_user": "Hi there! 'Yo' is a pretty informal greeting.  Is there anything you'd like to talk about today?  I'm here to listen without judgment.",
+      "emotion": "Neutral/Unclear.  The single word \"yo\" provides insufficient information to determine emotional tone.",
+      "suicidal_cues": "No.  There is no indication of suicidal ideation or self-harm in this single word.",
+      "summary": "The user's main concern is unclear; the message is too brief to ascertain any specific issue.",
+      "urgency": "Low (routine).  A single, informal greeting does not indicate an immediate crisis."
+    }
+  },
+  {
+    "id": "36ddbf37-4970-45ac-9ee2-5ac1a06e13b2",
+    "user_id": "123",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "Hi there! It seems like you might need someone to talk to.  Is there anything you'd like to share with me today? I'm here to listen without judgment.",
+      "emotion": "Neutral.  The greeting is noncommittal and lacks emotional cues.",
+      "suicidal_cues": "No.  The greeting \"hi\" provides no indication of suicidal ideation or self-harm.",
+      "summary": "The user's main concern is currently unknown; they have only offered a greeting.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "c73dea23-c4a1-4c85-a4e7-a2e02924278c",
+    "user_id": "123",
+    "user_input": "My avacado shake was bad",
+    "response": {
+      "response_to_user": "I understand you're feeling upset about your avocado shake.  Could you tell me more about what made it bad?  Sometimes talking about even small frustrations can help.",
+      "emotion": "Mildly frustrated/disappointed",
+      "suicidal_cues": "No. The statement is about a disliked food item and lacks any indicators of self-harm, hopelessness, or death wishes.",
+      "summary": "The user is expressing dissatisfaction with their avocado shake.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "1844a37e-962d-4be8-a2bd-ff0156b9cd30",
+    "user_id": "123",
+    "user_input": "",
+    "response": {
+      "response_to_user": "I understand you haven't shared anything yet.  To best support you, could you tell me what's on your mind?  Even if it feels small or insignificant, sharing it will help me understand how I can assist.  There's no pressure to share anything you're not comfortable with.  Remember, you're not alone.",
+      "emotion": "Neutral (cannot be determined without further information)",
+      "suicidal_cues": "No (No information provided to assess for suicidal ideation.)",
+      "summary": "The user has not yet expressed any concerns or feelings.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "8afdac5e-3a90-4ec6-b410-f15e369b0dc1",
+    "user_id": "123",
+    "user_input": "hari said he hated it",
+    "response": {
+      "response_to_user": "I understand you're sharing something concerning about Hari.  Can you tell me more about what 'it' refers to and what Hari said specifically?  Knowing more context will help me understand your concern and how best to support you.",
+      "emotion": "Concerned, possibly anxious depending on the relationship between the user and Hari.  The statement lacks sufficient information to determine the exact emotion.",
+      "suicidal_cues": "No. While \"hated it\" could be related to suicidal ideation, it lacks the specificity or directness to indicate this.  More information is needed.  The statement is too vague to make such a determination.",
+      "summary": "The user is worried about something Hari said, expressing strong dislike (\"hated it\") toward an unspecified thing.",
+      "urgency": "Moderate.  While there's no immediate danger indicated, the vague nature of the statement warrants follow-up to ensure the user and Hari are safe.  More information is needed to assess the true level of urgency."
+    }
+  },
+  {
+    "id": "f80f8ee8-3744-4f64-a0cc-d3b415c218a8",
+    "user_id": "123",
+    "user_input": "hari said he hated it",
+    "response": {
+      "response_to_user": "I understand you're sharing something concerning about Hari.  Can you tell me more about what 'it' refers to and what Hari's behavior is like right now?  Knowing more context will help me understand the situation better and offer appropriate support.",
+      "emotion": "Vague concern, potentially anxious depending on the context of \"it\".  More information is needed.",
+      "suicidal_cues": "No.  While \"hated it\" could be related to feelings of hopelessness, there is no direct mention of self-harm, death, or suicide. More information is crucial.",
+      "summary": "The user is worried about Hari's statement expressing intense dislike (\"hated it\") toward something unspecified.",
+      "urgency": "Moderate.  While not immediately a crisis, the user's concern warrants a follow-up to understand the underlying issue and assess the potential for risk.  The lack of specifics necessitates further inquiry before determining urgency."
+    }
+  },
+  {
+    "id": "48956fd7-d4c3-4b61-b65b-66397b1a2b3b",
+    "user_id": "123",
+    "user_input": "avacado shake",
+    "response": {
+      "response_to_user": "It seems like you might be thinking about an avocado shake.  Is there anything else on your mind today?  Sometimes when people are struggling, they might mention seemingly unrelated things.  I'm here to listen without judgment if you'd like to talk more.",
+      "emotion": "Neutral/Unclear",
+      "suicidal_cues": "No. The message is too brief to indicate any suicidal ideation.  The mention of an avocado shake is innocuous and doesn't suggest any underlying distress related to self-harm or death.",
+      "summary": "The user's main concern is unclear based solely on the message \"avocado shake.",
+      "urgency": "Low (routine)"
+    }
+  },
+  {
+    "id": "d0d8453f-be6e-4177-9a4c-846d459ac75d",
+    "user_id": "123",
+    "user_input": "i love you",
+    "response": {
+      "response_to_user": "It sounds like the avocado shake and Hari's reaction to it are bothering you.  While it might seem like a small thing,  negative feedback can sometimes affect us more than we realize. Can you tell me more about how Hari's comment made you feel?  Even if it's just a little bit upsetting, sharing it can help us understand what's going on.  Remember, it's okay to feel however you feel about this.",
+      "emotion": "Mildly upset, possibly insecure or sensitive to criticism.",
+      "suicidal_cues": "None",
+      "summary": "The user is indirectly expressing distress related to Hari's negative opinion of the avocado shake.  The user is struggling to articulate their feelings clearly, possibly due to the seemingly trivial nature of the event.  The underlying issue may be related to self-esteem or sensitivity to judgment.",
+      "urgency": "Low.  There is no immediate danger, but further exploration is needed to understand the root of the user's feelings and provide appropriate support."
+    }
+  },
+  {
+    "id": "17f8a3fa-80df-4896-bc57-5f07f6ded82d",
+    "user_id": "123",
+    "user_input": "bad",
+    "response": {
+      "response_to_user": "Thank you for sharing that you love me.  I appreciate your vulnerability. However, I'm concerned that you might be using this statement to express something else you're feeling.  The conversation started with an upsetting experience involving an avocado shake and Hari's negative reaction.  Can you tell me more about how that made you feel?  It\u2019s important to unpack those feelings. Remember, I'm here to listen without judgment and help you process what you're going through, whatever it may be. Let's focus on the underlying emotions related to the avocado shake incident.",
+      "emotion": "Underlying sadness and possibly insecurity, possibly masked by a seemingly unrelated declaration of love.  The \"I love you\" statement may be a cry for connection and reassurance due to hurt feelings from Hari's comment.",
+      "suicidal_cues": "None explicitly stated, but the indirect nature of the communication and potential underlying sadness warrants monitoring.  Further exploration is needed to rule out suicidal ideation.",
+      "summary": "The user's statement \"I love you\" appears to be an indirect way of expressing distress related to a previous comment about an avocado shake.  The user seems to be seeking comfort and reassurance, potentially struggling to directly express the negative emotions caused by Hari's criticism.",
+      "urgency": "Low to moderate.  While there are no immediate suicidal cues, the underlying emotional distress warrants further investigation to ensure the user's well-being.  Gentle probing and continued empathetic listening are crucial."
+    }
+  },
+  {
+    "id": "9052ed45-8433-4dde-a4f7-53ec3c57aedd",
+    "user_id": "22",
+    "user_input": "My gf is always troubling me ",
+    "response": {
+      "response_to_user": "",
+      "emotion": "",
+      "suicidal_cues": "",
+      "summary": "",
+      "urgency": ""
+    }
+  },
+  {
+    "id": "18b61166-1db5-4cd1-92e4-6286f7c35ee3",
+    "user_id": "22",
+    "user_input": "what to do",
+    "response": {
+      "response_to_user": "Oh no, I'm so sorry to hear that.  It sounds really tough when you feel troubled by your girlfriend. Can you tell me a little more about what's been happening?  It's okay to share as much or as little as you feel comfortable with.",
+      "emotion": "Frustration, sadness, possibly anger.",
+      "suicidal_cues": "None explicitly stated, but requires further exploration as relationship problems can contribute to suicidal ideation.",
+      "summary": "The user is experiencing distress due to their girlfriend's behavior.  The specifics of the \"troubling\" are unknown and need clarification.",
+      "urgency": "Low to moderate.  Needs further assessment to determine the severity of the situation and potential risk factors."
+    }
+  },
+  {
+    "id": "1517c26f-b6a9-4ae8-af5b-82ac28c647cc",
+    "user_id": "112",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "",
+      "emotion": "",
+      "suicidal_cues": "",
+      "summary": "",
+      "urgency": ""
+    }
+  },
+  {
+    "id": "6cdc3279-d890-4c5f-bf11-2f054f47f80b",
+    "user_id": "9",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "",
+      "emotion": "",
+      "suicidal_cues": "",
+      "summary": "",
+      "urgency": ""
+    }
+  },
+  {
+    "id": "b1c44754-4775-44d9-813d-b43684a0bbdf",
+    "user_id": "99",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "",
+      "emotion": "",
+      "suicidal_cues": "",
+      "summary": "",
+      "urgency": ""
+    }
+  },
+  {
+    "id": "ca8b076b-c8d7-40e2-99b6-4b05b5534db3",
+    "user_id": "99",
+    "user_input": "why did you not respond",
+    "response": {
+      "response_to_user": "Hey there! How's it going today?",
+      "emotion": "Neutral/Unspecified",
+      "suicidal_cues": "None",
+      "summary": "Simple greeting, requires further interaction to assess well-being.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "be9d94e4-b5a6-4455-b890-c0eccdac985d",
+    "user_id": "12",
+    "user_input": "hi",
+    "response": {
+      "response_to_user": "Hey there! How's it going today?  It's nice to hear from you.",
+      "emotion": "Neutral/Approachable",
+      "suicidal_cues": "None",
+      "summary": "Simple greeting.  Provides an opening for further conversation.",
+      "urgency": "None"
+    }
+  },
+  {
+    "id": "47f4f1fb-c04e-4010-9c79-7dc703eb8fd2",
+    "user_id": "12",
+    "user_input": "my chichen curry smells ba",
+    "response": {
+      "response_to_user": "Hey!  Just \"hi\" can mean a lot of things.  Want to chat about what's on your mind, or just need a friendly ear?  No pressure either way. \ud83d\ude0a",
+      "emotion": "Neutral/Ambiguous",
+      "suicidal_cues": "None",
+      "summary": "The user offered a simple greeting, indicating a potential need for connection or support but providing no specific information about their current emotional state.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "7476ad78-08b1-40f6-a48a-9377c6d49614",
+    "user_id": "12",
+    "user_input": "podei",
+    "response": {
+      "response_to_user": "Oh no!  Sounds like something's gone wrong with your chicken curry.  Want to talk about it? Maybe we can troubleshoot together, or if you just need a distraction, I'm happy to listen about anything else. \ud83d\ude0a",
+      "emotion": "Frustration, possibly minor disappointment.",
+      "suicidal_cues": "None",
+      "summary": "User expresses frustration about their chicken curry.  It seems like a minor inconvenience rather than a serious issue.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "b3b41c24-b931-4462-96bb-588938a6f7ac",
+    "user_id": "12",
+    "user_input": "fuck",
+    "response": {
+      "response_to_user": "Aw, that's a bummer!  Burnt?  Spilled?  Tell me more.  Maybe we can figure out a way to salvage it, or find a tasty alternative. \ud83d\ude0a",
+      "emotion": "Frustration, disappointment",
+      "suicidal_cues": "None",
+      "summary": "User's chicken curry has been negatively impacted somehow, causing frustration and disappointment.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "3cb75ee0-cb32-4802-a7cd-6c35ef8e3c43",
+    "user_id": "12",
+    "user_input": ".",
+    "response": {
+      "response_to_user": "Hey, using that kind of language suggests you're really frustrated.  Want to talk about what's going on?  It's okay to feel angry or upset.  I'm here to listen.",
+      "emotion": "Anger, frustration",
+      "suicidal_cues": "None",
+      "summary": "The user expressed anger using a swear word, likely stemming from the failed chicken curry.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "23c0234e-fd55-4924-95a5-57603a50edd8",
+    "user_id": "1321",
+    "user_input": "hey",
+    "response": {
+      "response_to_user": "Hey there!  What's up?",
+      "emotion": "Neutral/Uncertain",
+      "suicidal_cues": "None",
+      "summary": "A simple greeting, offering an opening for further conversation.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "849853ec-26e1-4b4c-abb0-5416373c121b",
+    "user_id": "1321",
+    "user_input": "I feel terrible",
+    "response": {
+      "response_to_user": "I'm so sorry to hear that.  Tell me more about what's making you feel terrible.  It's okay to not have all the answers right now, just let me know what you're comfortable sharing.",
+      "emotion": "Sadness, possibly despair or hopelessness.",
+      "suicidal_cues": "None explicitly stated, but requires further exploration.  \"Terrible\" is vague and needs clarification.",
+      "summary": "The user is experiencing significant distress, the nature of which is currently unknown.",
+      "urgency": "Medium.  Requires further assessment to determine the severity and potential for self-harm."
+    }
+  },
+  {
+    "id": "0ecb8a12-be21-4999-b577-bc49e2255f9f",
+    "user_id": "1321",
+    "user_input": "fuck you",
+    "response": {
+      "response_to_user": "Hey, I understand you're hurting and that you're lashing out.  That's okay.  I'm still here if you want to talk, but if not, that's alright too.",
+      "emotion": "Anger, frustration, possibly hurt or despair underneath.",
+      "suicidal_cues": "None explicitly stated, but the intensity of the anger warrants further investigation.",
+      "summary": "The user is clearly experiencing significant distress and has reacted with anger and aggression.  Their statement may be a cry for help disguised as rejection.",
+      "urgency": "Moderate.  Further exploration is needed to assess the level of risk."
+    }
+  },
+  {
+    "id": "30b532cd-b479-4eee-bd44-7d9b849662e8",
+    "user_id": "1321",
+    "user_input": "tell me story to make me feel goof",
+    "response": {
+      "response_to_user": "Hey, I get it.  Life can be rough and sometimes a good story is just what the doctor ordered.  Want to hear about the time I accidentally entered a llama costume contest?  Or maybe something a little different?",
+      "emotion": "Sadness, seeking distraction",
+      "suicidal_cues": "None",
+      "summary": "User is clearly distressed and looking for a distraction or mood boost. The previous outburst suggests frustration and possibly pain.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "5a43a599-f6e9-48e4-b737-dc41e547de10",
+    "user_id": "1321",
+    "user_input": "yes",
+    "response": {
+      "response_to_user": "Okay, buckle up!  Once upon a time, in a small town nestled beside a sparkling blue lake...  (And then I'll tell you the llama story, or something else if you'd prefer!)",
+      "emotion": "Low mood, seeking distraction/comfort.",
+      "suicidal_cues": "None.",
+      "summary": "User is clearly distressed but is open to a distraction in the form of a story.  The initial anger seems to have subsided.",
+      "urgency": "Low."
+    }
+  },
+  {
+    "id": "b48fdc4d-218c-4616-9d59-d876112e2808",
+    "user_id": "1321",
+    "user_input": "llama",
+    "response": {
+      "response_to_user": "Okay, so this little llama, fluffier than a cloud and stubborn as a mule, decided he wanted to be the star of the annual town festival.  He somehow managed to sneak into the costume contest and... well, let's just say chaos ensued!  Want to hear what happened next?",
+      "emotion": "Curious, slightly playful.",
+      "suicidal_cues": "None",
+      "summary": "The user is requesting the llama story.",
+      "urgency": "Low"
+    }
+  },
+  {
+    "id": "5dbcd2d8-c9ec-4422-865b-2c77b86ae592",
+    "user_id": "1321",
+    "user_input": "make it sexy",
+    "response": {
+      "response_to_user": "Whoa there, partner.  Let's keep the llama story fun and lighthearted, okay? We can add some humor and adventure without making it inappropriate. How about we focus on the llama's hilarious attempts to win the blue ribbon?",
+      "emotion": "Suggestive/Inappropriate request; underlying need for distraction and lightheartedness.",
+      "suicidal_cues": "None",
+      "summary": "User attempts to steer the story into sexually suggestive territory.  This likely stems from a desire for a different kind of emotional response or distraction from negative feelings.",
+      "urgency": "Low"
+    }
+  }
+]
