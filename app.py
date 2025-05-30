@@ -24,6 +24,8 @@ if not os.path.exists(CHATS_FILE):
 @app.route("/api/chats", methods=["GET"]) 
 #user params from request phone number as id
 def get_chats():
+    print("Fetching chats")
+
     with open(CHATS_FILE, "r") as f:
         chats = json.load(f)
     # Filter chats by user ID if provided
@@ -35,6 +37,8 @@ def get_chats():
 
 @app.route("/api/chat", methods=["POST"])
 def post_chat():
+    print("Putting chats" ,request.json)
+
     #get user_id from request
     if not request.json or "message" not in request.json:
         return jsonify({"error": "Invalid input"}), 400
