@@ -465,5 +465,29 @@
       "summary": "User attempts to steer the story into sexually suggestive territory.  This likely stems from a desire for a different kind of emotional response or distraction from negative feelings.",
       "urgency": "Low"
     }
+  },
+  {
+    "id": "700e7707-ac7d-482f-84a6-2b0763698552",
+    "user_id": "112233",
+    "user_input": "",
+    "response": {
+      "response_to_user": "",
+      "emotion": "",
+      "suicidal_cues": "",
+      "summary": "",
+      "urgency": ""
+    }
+  },
+  {
+    "id": "1361770e-66d4-47ae-965e-964b398c16a5",
+    "user_id": "112233",
+    "user_input": " Hi, you're doing today. I'll be going.",
+    "response": {
+      "response_to_user": "Hey, that sounds a bit abrupt.  Is everything okay?  You can tell me anything.",
+      "emotion": "Sadness, possibly distress or hopelessness.",
+      "suicidal_cues": "Potentially high. The phrase \"I'll be going\" without context can be interpreted as a farewell.",
+      "summary": "The user's message is concerning due to its brevity and potential for hidden meaning.  More information is needed to assess their well-being.",
+      "urgency": "High"
+    }
   }
 ]

@@ -3,6 +3,7 @@ from flask_cors import CORS
 from gemini_utils import get_gemini_response
 from dotenv import load_dotenv
 import os
+from voice_utils import transcribe_audio
 
 # Load variables from .env file into the environment
 load_dotenv()
@@ -47,6 +48,30 @@ def post_chat():
     return jsonify(response)
 
 
+@app.route("/api/audio", methods=["POST"])
+def post_audio():
+    # Check if the post request has the file part
+    if "audio" not in request.files:
+        return jsonify({"error": "No audio file provided"}), 400
+    audio_file = request.files["audio"]
+    if audio_file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
 
+    # Get user_id from form data
+    user_id = request.form.get("user_id")
+    if not user_id:
+        return jsonify({"error": "No user_id provided"}), 400
+
+    # Save the audio file temporarily
+    audio_path = "temp_audio.wav"
+    audio_file.save(audio_path)
+
+    # Process the audio file and get the response
+    transcribed_text = transcribe_audio(audio_path)
+    response = get_gemini_response(user_id, transcribed_text)
+
+    # Clean up the temporary audio file
+    os.remove(audio_path)
+    return jsonify(response)
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5050)), debug=True)
